@@ -12,13 +12,13 @@
         android:layout_marginEnd="5dp"
         android:layout_marginStart="5dp"
         android:orientation="vertical"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints" >
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
             android:text="Data Pemain Bola"
             android:textAlignment="center"
@@ -33,5 +33,6 @@
         tools:listitem="@layout/list_item_pemain"
         android:layout_marginTop="40dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
